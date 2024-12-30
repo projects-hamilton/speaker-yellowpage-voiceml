@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-k2cr8%g^o0zk$ca+7r@&#=(k-7qno3z51&7ep7ggo927@ei69z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -129,7 +129,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Add the address of your React app
+    "https://speakerq8.com",  # Add the address of your React app
 ]
 
 
